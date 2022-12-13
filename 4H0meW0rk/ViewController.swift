@@ -49,29 +49,7 @@ class ViewController: UIViewController {
     
 
  
-//    
-//    @IBAction func button(_ sender: Any) {
-//        var alertTextFiled = UITextField()
-//        let alert = UIAlertController(title: "Хотите добавить заметку?", message: "Введите ниже", preferredStyle: .alert)
-//        alert.addTextField { textfield in
-//            alertTextFiled = textfield
-//        }
-//        let actionYes = UIAlertAction(title: "OK", style: .default) { UIAlertAction in
-//            self.zametki.append(alertTextFiled.text ?? "12")
-//         
-//            self.tableView.reloadData()
-//            self.tableView.reloadData()
-//        }
-//        let actionNo = UIAlertAction(title: "No", style: .default)
-//        
-//        alert.addAction(actionYes)
-//        alert.addAction(actionNo)
-//        present(alert, animated: true)
-//        
-//    }
-//    
-//    
-//}
+
 
 extension ViewController:UITableViewDataSource{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
